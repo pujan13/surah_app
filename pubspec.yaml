@@ -41,7 +41,7 @@ dependencies:
   http:
   equatable:
   get:
-
+  video_player:
 
 dev_dependencies:
   flutter_test:
@@ -69,6 +69,7 @@ flutter:
   assets:
     - assets/images/
     - assets/images/logo/
+    - assets/videos/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 

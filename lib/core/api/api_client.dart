@@ -2,7 +2,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class ApiConfig{
-  static const String BASE_URL = 'http://192.168.1.24:3000/api';
+  static const String BASE_URL = 'http://192.168.1.6:3000/api';
   static const String AUTHENTICATE_API = '$BASE_URL/branchUser/authenticate';
 }
 
