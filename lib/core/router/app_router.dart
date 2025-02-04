@@ -8,7 +8,7 @@ import '../transition/fadeTransition.dart';
 
 class AppRouter {
   final GoRouter router = GoRouter(
-    initialLocation: '/',
+    initialLocation: '/home',
     routes: [
       // Route for the Login Page with Fade Transition
       GoRoute(

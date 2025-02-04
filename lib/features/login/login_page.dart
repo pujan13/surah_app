@@ -73,7 +73,7 @@ class _LoginPageState extends State<LoginPage>
             SlideTransition(
               position: _image1Animation,
               child: Image.asset(
-                'assets/images/pic1.png',
+                'assets/images/first/pic1.png',
                 fit: BoxFit.fill,
                 height: MediaQuery.of(context).size.height * 1.35,
                 width: MediaQuery.of(context).size.width * 0.9,
@@ -82,7 +82,7 @@ class _LoginPageState extends State<LoginPage>
             SlideTransition(
               position: _image2Animation,
               child: Image.asset(
-                'assets/images/pic2.png',
+                'assets/images/first/pic2.png',
                 fit: BoxFit.fill,
                 height: MediaQuery.of(context).size.height * 1.35,
                 width: MediaQuery.of(context).size.width * 0.9,
@@ -93,7 +93,7 @@ class _LoginPageState extends State<LoginPage>
               child: Align(
                 alignment: Alignment.bottomRight,
                 child: Image.asset(
-                  'assets/images/pic3.png',
+                  'assets/images/first/pic3.png',
                   fit: BoxFit.fill,
                   height: MediaQuery.of(context).size.height * 1.2,
                   width: MediaQuery.of(context).size.width * 0.8,
